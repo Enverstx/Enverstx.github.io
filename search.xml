@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2022/03/19/%E5%A5%87%E6%80%AAbug%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95/"/>
+      <url>/2022/03/19/%E5%A5%87%E6%80%AAbug%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>处于数据库课程原因，需要将word文档里的表格导入数据库。<br>在往navicat里导入表格数据时直接导excel文档会报错（不知道为什么），<br>因此看了网上的解决方法是先将word文档中的表格另存为html格式，编码设置为utf-8.<br>再使用excel打开html文件，选择另存为csv格式，方可导入。<br>但之后再打开其他的word文档都会变成网页显示，十分混乱。<br>试图修改布局无果，页边距、纸张方向、纸张大小修改了都毫无作用。<br>最后发现一个比较奇怪的解决方式：<br>点击“布局”下的“稿纸设置”，<br>将页面设置为“方格式稿纸”（其他种类稿纸应该也可以，我猜原理是一样的）<br>确认后页边距会变回正常A4纸，<br>再点进去，将页面设置修改为“非稿纸文档”，<br>点击确定，就ok啦！</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/03/17/hello-world/"/>
       <url>/2022/03/17/hello-world/</url>
