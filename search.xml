@@ -4,9 +4,22 @@
   
     
     <entry>
+      <title>朋友们不要擅自胡乱修改不懂的配置啊......</title>
+      <link href="/2022/03/20/new%20post/"/>
+      <url>/2022/03/20/new%20post/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如题，长话短说就是配置2min，debug 2h.<br>事情的开端是希望给这个站点弄一个评论区，<br>查到的教程是使用来必力（Livere）一个韩国的网站，<br>注册好了账号，获得了uid.<br>大多数教程都说：“大功告成！”<br>但是并！！！没！！！有！！！哇！！！<br>于是我就想到来必力给了我一个安装的js代码，<br>是不是应该安在什么地方。<br>按着一位博主的教程“类比”着修改了下配置文件<br>（为什么是类比呢，因为这位博主也不是butterfly主题）<br>然后！！！<br>噩梦就开始了！<br>长达三十多页的报错，<br>回includes文件夹下开始看我改过的每一个pug文件。<br>最后灵光一现，<br>去了butterfly作者的github主页找到了配置源文件。<br>下载，<br>替换。<br>重新生成、部署、上传。<br>搞定！！！<br>再也不乱改了呜呜呜QAQ</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>伤心，朴素点好了</title>
-      <link href="/2022/03/20/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/"/>
-      <url>/2022/03/20/%E6%96%B0%E5%BB%BA%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/</url>
+      <link href="/2022/03/20/%E4%BC%A4%E5%BF%83/"/>
+      <url>/2022/03/20/%E4%BC%A4%E5%BF%83/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>不打算加别的功能了，<br>部署两分钟，<br>debug两小时。<br>有时候还会明明没有报错，但整个页面就是崩掉呜呜呜。</p>]]></content>
       
