@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>一个记录，MySQL和SQL server语法区别（部分）</title>
+      <link href="/2022/03/21/MySQL/"/>
+      <url>/2022/03/21/MySQL/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>因为这学期学数据库用的是SSMS，一直教的是SQL server语法，<br>但因为第一节课建库不小心在一个表中输错了一个属性，发现无法更改，只能删除整个表。<br>故弃SSMS，使用Navicat.<br>于是开始切换为MySQL语法，这里做部分记录方便以后查阅。</p><ol><li>查询前几条记录：</li></ol><p>MySQL：select * from student limit 10;<br>（目前一些版本的MySQL已不再支持limit函数。结局方案：给表取别名之后嵌套子查询。）</p><p>SQL server：select top 10 * from student;</p><p>2.备份数据：</p><p>MySQL：CREAT TABLE tsc SELECT * FROM cs;</p><p>SQL server：Select * into tsc from cs;</p><p>3.删除表格：</p><p>MySQL：DELETE * FROM cs;</p><p>SQL server：DELETE [FROM] cs;   (FROM可省)</p><p>4.更新语句：</p><p>MySQL不支持更新的表与条件中查询的表为同一张表，否则会报如下错误：<br><img src="/MySQL/error.jpg" alt="报错图片"></p><p>解决方案： 给表取别名之后嵌套子查询<br>例：<br><img src="/MySQL/solution.jpg" alt="解决方案"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>朋友们不要擅自胡乱修改不懂的配置啊......</title>
       <link href="/2022/03/20/new%20post/"/>
       <url>/2022/03/20/new%20post/</url>
