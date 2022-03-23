@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>开始使用sublime记录一下常用插件和快捷键</title>
+      <link href="/2022/03/23/sublime/"/>
+      <url>/2022/03/23/sublime/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>常用插件<br>Emmet（原名 Zen Coding）——快速编写html&#x2F;css的方法<br>ConvertToUTF-8 ——解决乱码问题<br>Alignment——代码对齐插件<br>AutoPrefixer ——css3前缀自动添加插件<br>JS Fromat —— 格式化JS<br>Minifier——JS压缩插件<br>Sublime CodeIntel——代码自动提示<br>SideBarEnhancements——侧边栏插件<br>Keymaps ——快捷键查找等<br>CSScomb——CSS属性排序<br>常用快捷键<br>Ctrl+L 选择整行（按住-继续选择下行）<br>Ctrl+K+K 从光标处删除至行尾<br>Ctrl+Shift+K 删除整行<br>Ctrl+Shift+D 复制光标所在整行，插入在该行之前<br>Ctrl+J 合并行（已选择需要合并的多行时）<br>Ctrl+K+U 改为大写<br>Ctrl+KL 改为小写<br>Ctrl+D 选词 （按住-继续选择下个相同的字符串）<br>Ctrl+M 光标移动至括号内开始或结束的位置<br>Ctrl+Shift+M 选择括号内的内容（按住-继续选择父括号）<br>Ctrl+&#x2F; 注释整行（如已选择内容，同“Ctrl+Shift+&#x2F;”效果）<br>Ctrl+Shift+&#x2F; 注释已选择内容<br>Ctrl+Z 撤销<br>Ctrl+Y 恢复撤销<br>Ctrl+M 光标跳至对应的括号<br>Alt+. 闭合当前标签<br>Ctrl+Shift+A 选择光标位置父标签对儿<br>Ctrl+Shift+[ 折叠代码<br>Ctrl+Shift+] 展开代码<br>Ctrl+KT 折叠属性<br>Ctrl+K+0 展开所有<br>Ctrl+U 软撤销<br>Ctrl+T 词互换<br>Tab 缩进 自动完成<br>Shift+Tab 去除缩进<br>Ctrl+Shift+↑ 与上行互换<br>Ctrl+Shift+↓ 与下行互换<br>Ctrl+K Backspace 从光标处删除至行首<br>Ctrl+Enter 光标后插入行<br>Ctrl+Shift+Enter 光标前插入行<br>Ctrl+F2 设置书签<br>F2 下一个书签<br>Shift+F2 上一个书签</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Xampp安装配置中遇到的坑和解决方案记录</title>
       <link href="/2022/03/21/xampp/"/>
       <url>/2022/03/21/xampp/</url>
